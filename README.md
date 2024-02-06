@@ -7,6 +7,7 @@
 
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/spagnuolocarmine/programmazione-distribuita)
 ![Sito del corso](https://img.shields.io/badge/https%3A%2F%2Fspagnuolocarmine.github.io%2Fprogrammazione-distribuita?logo=mdbook&label=sito%20del%20corso&labelColor=blue&color=red&link=https%3A%2F%2Fspagnuolocarmine.github.io%2Fprogrammazione-distribuita)
+
 <!--
 ### Libri di testo
 - 📕 [Programmazione con Oggetti Distribuiti: Java RMI](https://ilmiolibro.kataweb.it/libro/informatica-e-internet/36104/programmazione-con-oggetti-distribuiti-java-rmi-2/)
