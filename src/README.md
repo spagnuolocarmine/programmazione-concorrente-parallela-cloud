@@ -1,19 +1,57 @@
-# PROGRAMMAZIONE DISTRIBUITA
+# Programmazione Concorrente, Parallela e su Cloud
 ### Università degli Studi di Salerno
 
+
 ![](https://img.shields.io/badge/Language-%F0%9F%87%AE%F0%9F%87%B9-yellow)
-![](https://img.shields.io/badge/cod-0512100021-orange)
-![](https://img.shields.io/badge/Platform-JAVA%20EE-brightgreen)
+![](https://img.shields.io/badge/cod-0522500102-orange)
+![](https://img.shields.io/badge/Platform-MPI-brightgreen)
+![](https://img.shields.io/badge/Platform-Google%20GCP-blu)
 
-### Libri di testo
-- 📕 [Programmazione con Oggetti Distribuiti: Java RMI](https://ilmiolibro.kataweb.it/libro/informatica-e-internet/36104/programmazione-con-oggetti-distribuiti-java-rmi-2/)
-- 📗 [Beginning Java EE 7](https://www.amazon.it/Beginning-Java-Expert-Voice-English-ebook/dp/B00EO03GQM)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/spagnuolocarmine/programmazione-concorrente-parallela-cloud)
 
-# Materiale
+# Descrizione del corso
 
-|🗓️ | Lezione | Materiale| Riferimenti |
-|---------|----------|--------|-----------|
-|06/10/2023 | Java Socket TCP 1 | | 📕Cap. 2 |
+**Part A:** *Programmazione parallela e cloud computing*
+
+**Part B:** *Fondamenti di concorrenza per sistemi paralleli*  
+
+The growing demand for more computing power is hard to fulfill. Modern computer architectures permit even more significant problems in various applications by adopting many computing systems, from personal multicore processors to high-performance systems or even co-processors such as GPU. This course provides a comprehensive introduction to parallel computing and concurrency, discussing the model of parallel algorithms and practical issues, such as designing and implementing distributed-memory programs by adopting the MPI standard. Moreover, the course will investigate cloud computing architectures as high-performance computing platforms. In particular, the Google Cloud Platform provider will be described, which will be exploited to create and manage clusters of machines for executing parallel programs written in C using OpenMPI.
+
+
+## Prerequisiti
+
+**Prerequisite(s)**: PROGRAMMAZIONE I - PROGRAMMAZIONE & STRUTTURE DATI - PROGETTAZIONE DI ALGORITMI - PROGRAMMAZIONE DISTRIBUITA.
+
+**Co-Requisite(s)**: good knowledge of the C language and cloud computing fundamentals.
+
+
+# Libri di testo
+- 📕 [The Art of Multiprocessor Programming, Revised Reprint, Maurice Herlihy](https://cs.ipm.ac.ir/asoc2016/Resources/Theartofmulticore.pdf)
+  - [Errata for The Art of Multiprocessor Programming](../data/errata_tamp_.pdf)
+- 📗 [MPI: A Message-Passing Interface Standard 2.2](https://www.mpi-forum.org/docs/mpi-2.2/mpi22-report.pdf)
+- ⚙️ [HAVE FUN WITH MPI](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/lets-start-to-have-fun-with-mpi)
+## Approfondimenti
+- ☁️ [Google Cloud Platform IN ACTION, JJ Geewax](https://books.google.it/books/about/Google_Cloud_Platform_in_Action.html?id=N7YVvgAACAAJ&redir_esc=y)
+- [Introduction to Parallel Computing, Czech, Z., 2017](https://books.google.it/books?id=obDDDQAAQBAJ&printsec=copyright&redir_esc=y#v=onepage&q&f=false)
+- [Distributed and Cloud Computing: From Parallel Processing to the Internet of Things, Kai Hwang, Jack Dongarra, and Geoffrey C. Fox., 2011](https://dl.acm.org/doi/10.5555/2060077)
+
+# 🔥 RICHIESTA ACCOUNT GOOGLE GCP ⚠️
+
+Here is the URL you will need to access in order to request a Google Cloud coupon. You will be asked to provide your school email address and name. An email will be sent to you to confirm these details before a coupon is sent to you.
+
+Student Coupon Retrieval {Link} is available on the MS TEAMS.
+
+- You will be asked for a name and email address, which needs to match your school domain. A confirmation email will be sent to you with a coupon code.
+- You can request a coupon from the URL and redeem it until: 6/26/2024
+- Coupon valid through: 2/26/2025
+- You can only request ONE code per unique email address.
+
+
+# Calendario
+
+|🗓️ | Lezione | Materiale| Riferimenti | Assignment |
+|---------|----------|--------|-----------|---------|
+<!--|06/10/2023 | Java Socket TCP 1 | | 📕Cap. 2 |
 |09/10/2023 | Java Socket TCP 2 | [Installazione ambiente di sviluppo (solo prima sezione)](04-javaee-lab.md)|📕 Cap. 2  |
 |12/10/2023 | RMI 1 | [RMI 1 - Hello World](03-rmi.md)| 📕 Cap. 3|
 |13/10/2023 | RMI 2 | |  📕 Cap. 4|
@@ -46,7 +84,7 @@
 |14/12/2023 | PAUSA pre intercorso |  |  |
 |15/12/2023 | 📝 Parte C |  |  |
 |18/12/2023 | Laboratorio J2EE Step-by-step (sviluppo prova intercorso)  |  |  |
-<!--  20/10/2022 | [Introduzione a Java Enterprise Edition](01-intro) | 
+  20/10/2022 | [Introduzione a Java Enterprise Edition](01-intro) | 
  21/10/2022 | [Context Dependency Injection (Introduzione - Esempio di CDI Bean)](02-cdi) | 
 | **Week**|  **2**|
 24/10/2022 | [Laboratorio Starting with J2EE ](03-lab-j2ee-intro) | 
@@ -85,95 +123,5 @@
 
 
 ---
-# Informazioni modalità d'esame 
-
-**Prova scritta** ➡️ **Svolgimento prova a casa** ➡️ **Consegna progetto** ➡️ **Prova orale**
-## Prova scritta 
-**Date (da verificare su ESSE3)**
-
-
-|🗓️ | 🕘 | 📍|
----------|----------|--------|
-16/01/2023 | 15:00-17:30 | P3/P4
-31/01/2023 | 15:00-17:30 | F1/F8
-16/02/2023 | 15:00-17:30 | P3/P4
-
-<!--
-### Svolgimento della prova di esame durante il corso (relativa al primo appello) 🛑 **non definitivo**
-1. 📝 Prova a quiz Ottobre (Libro Programmazione con Oggetti Distribuiti: Java RMI)
-2. 📝 Prova a quiz Novembre (Libro Beginning Java EE 7)
-3. 💻 Prova di programmazione Dicembre (Applicazione Java Enterprise)
-4. ⚽️ Risultati prima dello scritto del primo appello
-5. 🗣️ Esame orale al primo appello
--->
-
-**Note sullo svolgimento della prova scritta**
-
-- Alla terminazione della prova scritta dovete scansionare il compito per poterlo svolgere a casa.
-- Ricordatevi di portare un congruo numero di fogli bianchi e almeno due penne. La commissione non vi consegnerà NULLA e voi non potrete assolutamente scambiarvi oggetti.
-- Il cellulare dovrete averlo con voi (Modalità aereo), non potrete alzarvi per recuperarlo dagli zaini.
-- Sul vostro cellulare dovrà essere già installata una qualunque app per la scansione del compito.
-- A compito terminato dovrete effettuarne la scansione usando il vostro cellulare. Dovrete a questo punto comunicare alla commissione di voler eseguire la scansione e successivamente procedere alla scansione senza muovervi dal vostro posto.
-  
-**Suggerimenti utili**
-- Scrivete in maniera chiara, senza troppe cancellature, seguite l’ordine di progettazione indicato nella traccia e indentate correttamente il codice.
-- Rispondere alla domanda di teoria in maniera chiara, puntuale e precisa, eventuali argomenti non chiesti non verranno valutati.
-- Parti non implementate durante l’esame non dovranno essere consegnate nel progetto
-import, getter, setter e toString si possono omettere nello scritto, ma i costruttori vanno implementati.
-
-## ➡️ Svolgimento prova a casa
-
-- I progetti da consegnare (progetti NetBeans) si devono chiamare “COGNOMENOMEXXX” nei rispettivi files COGNOMENOMEXXX.zip (devono essere esportati).
-- L’archivio che li contiene TUTTI insieme deve chiamarsi COGNOMENOME_EE.zip
-- Deve esserci un UNICO file readme.txt (non Readme, non leggimi, …) all’interno di COGNOMENOME_EE.zip che illustri le modifiche che si sono rese necessarie (per ogni file di ogni progetto) rispetto a quanto consegnato, secondo lo schema presente alla fine di questo documento.
-- Le modifiche devono essere commentate ANCHE nel codice dei progetti.
-
-    **Esempio file readme.txt**
-
-    ```
-    Cognome e Nome: XXXXXXX
-    Data: gg/mm/yy
-
-    Breve descrizione riassuntiva delle modifiche: 
-    xxxxxxxxx xxxxxxxxx
-    xxxxxxxxx xxxxxxxxx xxxxxxxxx xxxxxxxxx xxxxxxxxx 
-    xxxxxxxxx xxxxxxxxx
-    xxxxxxxxx xxxxxxxxx xxxxxxxxx xxxxxxxxx xxxxxxxxx 
-    xxxxxxxxx xxxxxxxxx
-    xxxxxxxxx xxxxxxxxx xxxxxxxxx xxxxxxxxx xxxxxxxxx 
-    ------------------------------
-    MODIFICHE
-    PROGETTO: NOMEPROGETTO 1
-    FILE: xxxxxx
-    Linea 4: xxxxxxxxxx
-    Linea 34: xxxxxxxxxx
-    Linea 52: xxxxxxxxxx
-
-    FILE: yyyy
-    Linea 7: xxxxxxxxxx
-    Linea 13: xxxxxxxxxx
-    Linea 22: xxxxxxxxxx
-
-    PROGETTO: NOMEPROGETTO 2
-    FILE: xxxxxx
-    Linea 4: xxxxxxxxxx
-    Linea 34: xxxxxxxxxx
-    Linea 52: xxxxxxxxxx
-
-    FILE: yyyy
-    Linea 7: xxxxxxxxxx
-    Linea 13: xxxxxxxxxx
-    Linea 22: xxxxxxxxxx
-    ...
-    ```
-## ➡️ Consegna progetto
-
-- I progetti funzionanti, entro la data indicata sul compito, vanno inviati tramite il link che troverete sul compito o sulla piattaforma MS Teams. 
-- ⚠️ **L’invio dei progetti entro la data stabilita è da considerarsi come richiesta di correzione (nel senso che se non viene inviato, il compito non viene corretto!).**
-
-
-## ➡️ Prova orale
-- _Il calendario delle prove orali (per gli ammessi) sarà comunicato su MS Teams per ogni appello._
-
 
 

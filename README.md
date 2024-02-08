@@ -1,12 +1,13 @@
-# PROGRAMMAZIONE DISTRIBUITA
+# Programmazione Concorrente, Parallela e su Cloud
 ### Università degli Studi di Salerno
 
 ![](https://img.shields.io/badge/Language-%F0%9F%87%AE%F0%9F%87%B9-yellow)
-![](https://img.shields.io/badge/cod-0512100021-orange)
-![](https://img.shields.io/badge/Platform-JAVA%20EE-brightgreen)
+![](https://img.shields.io/badge/cod-0522500102-orange)
+![](https://img.shields.io/badge/Platform-MPI-brightgreen)
+![](https://img.shields.io/badge/Platform-Google%20GCP-blu)
 
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/spagnuolocarmine/programmazione-distribuita)
-![Sito del corso](https://img.shields.io/badge/https%3A%2F%2Fspagnuolocarmine.github.io%2Fprogrammazione-distribuita?logo=mdbook&label=sito%20del%20corso&labelColor=blue&color=red&link=https%3A%2F%2Fspagnuolocarmine.github.io%2Fprogrammazione-distribuita)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/spagnuolocarmine/programmazione-concorrente-parallela-cloud)
+![Sito del corso](https://img.shields.io/badge/https%3A%2F%2Fspagnuolocarmine.github.io%2Fprogrammazione-concorrente-parallela-cloud?logo=mdbook&label=sito%20del%20corso&labelColor=blue&color=red&link=https%3A%2F%2Fspagnuolocarmine.github.io%2Fprogrammazione-concorrente-parallela-cloud)
 
 <!--
 ### Libri di testo
