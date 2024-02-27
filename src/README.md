@@ -3,9 +3,9 @@
 
 
 ![](https://img.shields.io/badge/Language-%F0%9F%87%AE%F0%9F%87%B9-yellow)
-![](https://img.shields.io/badge/cod-0522500102-orange)
-![](https://img.shields.io/badge/Platform-MPI-brightgreen)
-![](https://img.shields.io/badge/Platform-Google%20GCP-blu)
+[![](https://img.shields.io/badge/cod-0522500102-orange)](https://docenti.unisa.it/028012/didattica?anno=2023&id=511693&cId=10004-2016&pId=N0*N0*S2)
+[![](https://img.shields.io/badge/Platform-MPI-brightgreen)](https://www.mpi-forum.org/)
+[![](https://img.shields.io/badge/Platform-Google%20GCP-blu)](https://cloud.google.com/gcp?utm_source=google&utm_medium=cpc&utm_campaign=emea-it-all-en-bkws-all-all-trial-e-gcp-1707574&utm_content=text-ad-none-any-DEV_c-CRE_500236788711-ADGP_Hybrid+%7C+BKWS+-+EXA+%7C+Txt+-+GCP+-+General+-+v3-KWID_43700060384861756-kwd-26415313501-userloc_20599&utm_term=KW_google%20cloud%20platform-NET_g-PLAC_&&gad_source=1&gclid=CjwKCAiArfauBhApEiwAeoB7qG0UCXiDyQbqYjqfm15BPrPeLGX4RHTGi7rTRAY7bkNGXVDYHOzjYxoCgLYQAvD_BwE&gclsrc=aw.ds)
 
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/spagnuolocarmine/programmazione-concorrente-parallela-cloud)
 
