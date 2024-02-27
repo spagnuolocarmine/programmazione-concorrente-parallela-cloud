@@ -1,4 +1,5 @@
 # Summary
 
-- [Student welcome](README.md)
-- [Research challenge](research-challenge.md)
+- [🤗 Student Welcome](README.md)
+- [🗓️ Calendar](calendar.md)
+- [📢 Course Research Forum](course-research-forum.md)
