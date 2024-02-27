@@ -1,4 +1,4 @@
 # Summary
 
-- [Programmazione Concorrente, Parallela e su Cloud](README.md)
-  
+- [Student welcome](README.md)
+- [Research challenge](research-challenge.md)
