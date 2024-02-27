@@ -38,7 +38,7 @@ The growing demand for more computing power is hard to fulfill. Modern computer 
   - ⚙️ [HAVE FUN WITH MPI](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/lets-start-to-have-fun-with-mpi)
 - Part B
   - 📕 [The Art of Multiprocessor Programming, Revised Reprint, Maurice Herlihy](https://cs.ipm.ac.ir/asoc2016/Resources/Theartofmulticore.pdf)
-    - [Errata for The Art of Multiprocessor Programming](../data/errata_tamp_.pdf)
+    - [Errata for The Art of Multiprocessor Programming](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/errata_tamp_.pdf)
 
 ## 👁️ Insights
 - ☁️ [Google Cloud Platform IN ACTION, JJ Geewax](https://books.google.it/books/about/Google_Cloud_Platform_in_Action.html?id=N7YVvgAACAAJ&redir_esc=y)
