@@ -1,7 +1,7 @@
 [book]
-authors = ["Carmine Spagnuolo"]
+authors = ["spagnuolocarmine"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Programmazione Concorrente, Parallela e su Cloud (PCPC) @ UNISA"
-description = "materiale di supporto al corso di PCPC"
+[output.html]
+additional-css = ["custom.css"]
