@@ -33,16 +33,16 @@ The growing demand for more computing power is hard to fulfill. Modern computer 
 - The lessons always start promptly at 12 and finish before 2 PM (generally).
 
 # 📚 Textbooks
-- Part A
+- Part 🅰️
   - 📗 [MPI: A Message-Passing Interface Standard 2.2](https://www.mpi-forum.org/docs/mpi-2.2/mpi22-report.pdf)
   - ⚙️ [HAVE FUN WITH MPI](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/lets-start-to-have-fun-with-mpi)
-- Part B
+  - 📘 [Introduction to Parallel Computing, Czech, Z., 2017](https://books.google.it/books?id=obDDDQAAQBAJ&printsec=copyright&redir_esc=y#v=onepage&q&f=false)
+- Part 🅱️
   - 📕 [The Art of Multiprocessor Programming, Revised Reprint, Maurice Herlihy](https://cs.ipm.ac.ir/asoc2016/Resources/Theartofmulticore.pdf)
     - [Errata for The Art of Multiprocessor Programming](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/errata_tamp_.pdf)
 
 ## 👁️ Insights
 - ☁️ [Google Cloud Platform IN ACTION, JJ Geewax](https://books.google.it/books/about/Google_Cloud_Platform_in_Action.html?id=N7YVvgAACAAJ&redir_esc=y)
-- [Introduction to Parallel Computing, Czech, Z., 2017](https://books.google.it/books?id=obDDDQAAQBAJ&printsec=copyright&redir_esc=y#v=onepage&q&f=false)
 - [Distributed and Cloud Computing: From Parallel Processing to the Internet of Things, Kai Hwang, Jack Dongarra, and Geoffrey C. Fox., 2011](https://dl.acm.org/doi/10.5555/2060077)
 
 ## 🔥 GOOGLE GCP ACCOUNT REQUEST ⚠️

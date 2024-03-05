@@ -2,10 +2,16 @@
 # Programmazione Concorrente, Parallela e su Cloud
 ## Course Calendar
 
+**Symbols**
+- 📒 Lesson
+- ⚗️ Lab
+- 🅰️🅱️, part of the course
+  
 |🗓️| Lesson | Type | Part| Materials | References | Assignments |
 |---------|----------|--------|-----------|---------|---------|---------|
-|29/02/2024|Course introduction and parallel computing fundamentals|📒 Lesson | A-B| | | 🧑🏻‍🚀 activate Google GCP. You will receive a pdf with instruction on your studenti.unisa.it email. BEFORE beginning of June, 2024.|
-|01/03/2024|Introduction to HPC Cloud and GCP|📒 Lesson | A| [Intro2GCP](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/1.gcp_an_inaction_introdution.pdf) | | |
+|29/02/2024|Course introduction and parallel computing fundamentals|📒 | 🅰️🅱️| | | 🧑🏻‍🚀 activate Google GCP. You will receive a pdf with instruction on your studenti.unisa.it email. BEFORE beginning of June, 2024.|
+|01/03/2024|Introduction to HPC Cloud and GCP|📒 | 🅰️ | [Intro2GCP](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/1.gcp_an_inaction_introdution.pdf) | | |
+|08/03/2024|Model and Architecture for Parallel Computing|📒⚗️ | 🅰️ | | 📘 Cap. 2 | [lab.2 - GCP](labs/lab.2.md)|
 <!--
 
 |Introduzione al cloud computing nel contesto dei sistemi ad alte prestazioni |March 2, 2023    |📒 Lesson                       |PART B, ☁️ GCP                  |                                                                                                                                                                                                                                                    |Course%20Schedule%20e31a7109bee0451d8d2ead747f079537/gcp_an_inaction_introdution.pdf                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |Carmine Spagnuolo                  |Yes |
