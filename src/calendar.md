@@ -9,7 +9,7 @@
   
 |🗓️| Lesson | Type | Part| Materials | References | Assignments |
 |---------|----------|--------|-----------|---------|---------|---------|
-|29/02/2024|Course introduction and parallel computing fundamentals|📒 | 🅰️🅱️| | | 🧑🏻‍🚀 activate Google GCP. You will receive a pdf with instruction on your studenti.unisa.it email. BEFORE beginning of June, 2024.|
+|29/02/2024|Course introduction and parallel computing fundamentals|📒 | 🅰️🅱️| [vim graphical cheat sheet](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/vi-vim-cheat-sheet-dvorak.gif) | 📹 [Mythbusters Demo GPU versus CPU](https://www.youtube.com/watch?v=-P28LKWTzrI&ab_channel=NVIDIA) <br> About 🐧 OS <br>📒 [An Introduction to Linux ](https://cvw.cac.cornell.edu/Linux/) <br>📺 [Linux Tutorial for Beginners: Introduction to Linux Operating System](https://www.youtube.com/watch?v=V1y-mbWM3B8)  <br>📑 [Introduction to Linux, Boston University](https://www.bu.edu/tech/files/2018/05/2018-Summer-Tutorial-Intro-to-Linux.pdf)| 🧑🏻‍🚀 activate Google GCP. You will receive a pdf with instruction on your studenti.unisa.it email. BEFORE beginning of June, 2024.|
 |01/03/2024|Introduction to HPC Cloud and GCP|📒 | 🅰️ | [Intro2GCP](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/1.gcp_an_inaction_introdution.pdf) | | |
 |08/03/2024|Model and Architecture for Parallel Computing|📒⚗️ | 🅰️ | | 📘 Cap. 2 | [lab.2 - GCP](labs/lab.2.md)|
 <!--
