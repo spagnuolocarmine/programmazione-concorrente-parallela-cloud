@@ -5,7 +5,7 @@
 **Symbols**
 - 📒 Lesson
 - ⚗️ Lab
-- 🅰️🅱️, part of the course
+- 🅰️ 🅱️ course parts
   
 |🗓️| Lesson | Type | Part| Materials | References | Assignments |
 |---------|----------|--------|-----------|---------|---------|---------|
@@ -13,6 +13,13 @@
 |01/03/2024|Introduction to HPC Cloud and GCP|📒 | 🅰️ | [Intro2GCP](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/1.gcp_an_inaction_introdution.pdf) | | |
 |08/03/2024|Model and Architecture for Parallel Computing|📒⚗️ | 🅰️ | | 📘 Cap. 2 | [lab.2 - GCP](labs/lab.2.md)|
 <!--
+|14/03/2024|Metrics for parallel computing|📒⚗️ | 🅰️ | | 📘 Cap. 2 | [lab.2 - GCP](labs/lab.2.md)|
+|15/03/2024|Design of parallel algorithms|📒⚗️ | 🅰️ | | 📘 Cap. 2 | [lab.2 - GCP](labs/lab.2.md)|
+
+
+
+
+//OLD
 
 |Introduzione al cloud computing nel contesto dei sistemi ad alte prestazioni |March 2, 2023    |📒 Lesson                       |PART B, ☁️ GCP                  |                                                                                                                                                                                                                                                    |Course%20Schedule%20e31a7109bee0451d8d2ead747f079537/gcp_an_inaction_introdution.pdf                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |Carmine Spagnuolo                  |Yes |
 |Modelli ed architetture per il calcolo parallelo e distribuito               |March 6, 2023    |📌 Assignment, 📒 Lesson, 🔬 Lab|Fundamental, PART B, ☁️ GCP     |Course%20Schedule%20e31a7109bee0451d8d2ead747f079537/lab-lesson2.pdf                                                                                                                                                                                |Course%20Schedule%20e31a7109bee0451d8d2ead747f079537/vi-vim-cheat-sheet-dvorak.gif                                                                                      |📹 https://www.youtube.com/watch?v=-P28LKWTzrI&ab_channel=NVIDIA  About 🐧 OS - 📒 https://cvw.cac.cornell.edu/Linux/ - 📺 https://www.youtube.com/watch?v=V1y-mbWM3B8 - 📑 https://www.bu.edu/tech/files/2018/05/2018-Summer-Tutorial-Intro-to-Linux.pdf                                                                                                                                                                                                                                                                                                                 |Carmine Spagnuolo                  |Yes |
