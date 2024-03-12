@@ -2,10 +2,17 @@
 # Programmazione Concorrente, Parallela e su Cloud
 ## Course Calendar
 
-**Symbols**
-- 📒 Lesson
-- ⚗️ Lab
-- 🅰️ 🅱️ course parts
+📜 LEGEND
+- Part 🅰️
+  - 📗 [MPI: A Message-Passing Interface Standard 2.2](https://www.mpi-forum.org/docs/mpi-2.2/mpi22-report.pdf)
+  - ⚙️ [HAVE FUN WITH MPI](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/lets-start-to-have-fun-with-mpi)
+  - 📘 [Introduction to Parallel Computing, Czech, Z., 2017](https://books.google.it/books?id=obDDDQAAQBAJ&printsec=copyright&redir_esc=y#v=onepage&q&f=false)
+- Part 🅱️
+  - 📕 [The Art of Multiprocessor Programming, Revised Reprint, Maurice Herlihy](https://cs.ipm.ac.ir/asoc2016/Resources/Theartofmulticore.pdf)
+    - [Errata for The Art of Multiprocessor Programming](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/errata_tamp_.pdf)
+- **Symbols**
+  - 📒 Lesson
+  - ⚗️ Lab
   
 |🗓️| Lesson | Type | Part| Materials | References | Assignments |
 |---------|----------|--------|-----------|---------|---------|---------|
