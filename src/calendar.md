@@ -11,10 +11,11 @@
 |---------|----------|--------|-----------|---------|---------|---------|
 |29/02/2024|Course introduction and parallel computing fundamentals|📒 | 🅰️🅱️| [vim graphical cheat sheet](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/vi-vim-cheat-sheet-dvorak.gif) | 📹 [Mythbusters Demo GPU versus CPU](https://www.youtube.com/watch?v=-P28LKWTzrI&ab_channel=NVIDIA) <br> About 🐧 OS <br>📒 [An Introduction to Linux ](https://cvw.cac.cornell.edu/Linux/) <br>📺 [Linux Tutorial for Beginners: Introduction to Linux Operating System](https://www.youtube.com/watch?v=V1y-mbWM3B8)  <br>📑 [Introduction to Linux, Boston University](https://www.bu.edu/tech/files/2018/05/2018-Summer-Tutorial-Intro-to-Linux.pdf)| 🧑🏻‍🚀 activate Google GCP. You will receive a pdf with instruction on your studenti.unisa.it email. BEFORE beginning of June, 2024.|
 |01/03/2024|Introduction to HPC Cloud and GCP|📒 | 🅰️ | [Intro2GCP](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/1.gcp_an_inaction_introdution.pdf) | | |
-|08/03/2024|Model and Architecture for Parallel Computing|📒⚗️ | 🅰️ | | 📘 Cap. 2 | [lab.2 - GCP](labs/lab.2.md)|
+|08/03/2024|Model and Architecture for Parallel Computing|📒⚗️ | 🅰️ | | 📘 Cap. 2 (2.1, 2.2 with no dimostration) | [lab.2 - GCP](labs/lab.2.md)|
+|14/03/2024|Metrics for parallel computing|📒 | 🅰️ | [IntroDocker](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/docker-introduction_in-depth-material.pdf) | 📘 Cap. 2 (3.1, 3.2 with no dimostration) | 🐳  Docker resource: <br> - [Docker beginner lab](https://github.com/docker/labs/tree/master/beginner/) <br> - [Get Docker](https://docs.docker.com/get-docker/) <br> - [Documentation](https://docs.docker.com/reference/) (in-depth material) <br> - [gcloud Docker](https://cloud.google.com/sdk/docs/downloads-docker?hl=it) <br> |
+|15/03/2024|Design of parallel algorithms|📒 | 🅰️ | | 📘 Cap. 2 (4.1, 4.2, 4.3, 4.4 with no dimostration)| [OpenMPI](https://www.open-mpi.org/) <br> 🐳  [Docker Ubuntu OpenMPI](https://hub.docker.com/r/spagnuolocarmine/docker-mpi) <br> 🆚  [code Docker MPI integration](https://gist.github.com/spagnuolocarmine/60a5f8c065f9577c25a6717681bd84d1) <br> 🆘  [Usage Docker environment](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/docker-mpi-environment) <br> [Install OpneMPI](https://edu.itp.phys.ethz.ch/hs12/programming_techniques/openmpi.pdf) |
 <!--
-|14/03/2024|Metrics for parallel computing|📒⚗️ | 🅰️ | | 📘 Cap. 2 | [lab.2 - GCP](labs/lab.2.md)|
-|15/03/2024|Design of parallel algorithms|📒⚗️ | 🅰️ | | 📘 Cap. 2 | [lab.2 - GCP](labs/lab.2.md)|
+
 
 
 
