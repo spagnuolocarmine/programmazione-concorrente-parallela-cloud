@@ -25,6 +25,21 @@
 | 7️⃣ |22/03/2024| Lab Message Passing Interface (MPI)|⚗️ | 🅰️ | | [🔗 MPI on Cloud VM cluster](https://github.com/spagnuolocarmine/ubuntu-openmpi-openmp) |[lab.3 - MPI.1](labs/lab.3.md) |
 | 8️⃣ |04/04/2024| MPI - Synchronous Communication|📒⚗️ | 🅰️ | [Find the bug 1](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/mpi_bug1.c)  | 📖 Have fun with MPI in C: <br> - 📌 [Chapter 2.1 - MPI Memory Model](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/mpi-memory-model)<br> - 📌 [Chapter 2.2 - Blocking Communication](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/blocking-communication)  <br>- 📌 [Chapter 2.3 - Communication Modes](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/communication-modes) |[lab.4 - MPI.2](labs/lab.4.md) |
 | 9️⃣ |05/04/2024| MPI - Asynchronous Communication|📒⚗️ | 🅰️ | [Find the bug 2](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/mpi_bug2.c) | 📖 Have fun with MPI in C <br> - 📌 [Chapter 2.4 - Non-Blocking Communication](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/non-blocking-communication) | [lab.5 - MPI.3](labs/lab.5.md)|
+| 1️⃣0️⃣ | <span style="color:red;">11/04/2024</span>|<!--TITLE--> |<!--LEGEND--> |<!--PART--> |<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
+| 1️⃣1️⃣ |<span style="color:red;">12/04/2024</span>|<!--TITLE--> |<!--LEGEND--> |<!--PART--> |<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
+| 1️⃣2️⃣ |<span style="color:red;">18/04/2024</span>|<!--TITLE--> |<!--LEGEND--> |<!--PART--> |<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
+| 1️⃣3️⃣ |<span style="color:red;">19/04/2024</span>|<!--TITLE--> |<!--LEGEND--> |<!--PART--> |<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
+| 1️⃣4️⃣ |<span style="color:red;">26/04/2024</span>|<!--TITLE--> |<!--LEGEND--> |<!--PART--> |<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
+| 1️⃣5️⃣ |<span style="color:red;">02/05/2024</span>|<!--TITLE--> |<!--LEGEND--> |<!--PART--> |<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
+| 1️⃣6️⃣ |<span style="color:red;">03/05/2024</span>|<!--TITLE--> |<!--LEGEND--> |<!--PART--> |<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
+| 1️⃣7️⃣ |<span style="color:red;">09/05/2024</span>|<!--TITLE--> |<!--LEGEND--> |<!--PART--> |<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
+| 1️⃣8️⃣ |<span style="color:red;">10/05/2024</span>|<!--TITLE--> |<!--LEGEND--> |<!--PART--> |<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
+| 1️⃣9️⃣ |<span style="color:red;">16/05/2024</span>|<!--TITLE--> |<!--LEGEND--> |<!--PART--> |<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
+| 2️⃣0️⃣ |<span style="color:red;">17/05/2024</span>|<!--TITLE--> |<!--LEGEND--> |<!--PART--> |<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
+| 2️⃣1️⃣ |<span style="color:red;">23/05/2024</span>|<!--TITLE--> |<!--LEGEND--> |<!--PART--> |<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
+| 2️⃣2️⃣ |<span style="color:red;">24/05/2024</span>|<!--TITLE--> |<!--LEGEND--> |<!--PART--> |<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
+| 2️⃣3️⃣ |<span style="color:red;">30/05/2024</span>|<!--TITLE--> |<!--LEGEND--> |<!--PART--> |<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
+| 2️⃣4️⃣ |<span style="color:red;">31/05/2024</span>|<!--TITLE--> |<!--LEGEND--> |<!--PART--> |<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
 <!--
 
 
