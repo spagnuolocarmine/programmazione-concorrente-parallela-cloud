@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>lab.3 - MPI GCP cluster </title>
+        <title>lab.5 - MPI asynchronous</title>
 
 
         <!-- Custom HTML head -->
@@ -89,7 +89,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">1.</strong> 🤗 Student Welcome</a></li><li class="chapter-item expanded "><a href="../calendar.html"><strong aria-hidden="true">2.</strong> 🗓️ Calendar</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../labs/lab.2.html"><strong aria-hidden="true">2.1.</strong> lab.2 - GCP</a></li><li class="chapter-item expanded "><a href="../labs/lab.3.html" class="active"><strong aria-hidden="true">2.2.</strong> lab.3 - MPI GCP cluster </a></li><li class="chapter-item expanded "><a href="../labs/lab.4.html"><strong aria-hidden="true">2.3.</strong> lab.4 - MPI synchronous</a></li><li class="chapter-item expanded "><a href="../labs/lab.5.html"><strong aria-hidden="true">2.4.</strong> lab.5 - MPI asynchronous</a></li></ol></li><li class="chapter-item expanded "><a href="../course-research-forum.html"><strong aria-hidden="true">3.</strong> 📢 Course Research Forum</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../forums/2024/crf-2024.html"><strong aria-hidden="true">3.1.</strong> 2024</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">1.</strong> 🤗 Student Welcome</a></li><li class="chapter-item expanded "><a href="../calendar.html"><strong aria-hidden="true">2.</strong> 🗓️ Calendar</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../labs/lab.2.html"><strong aria-hidden="true">2.1.</strong> lab.2 - GCP</a></li><li class="chapter-item expanded "><a href="../labs/lab.3.html"><strong aria-hidden="true">2.2.</strong> lab.3 - MPI GCP cluster </a></li><li class="chapter-item expanded "><a href="../labs/lab.4.html"><strong aria-hidden="true">2.3.</strong> lab.4 - MPI synchronous</a></li><li class="chapter-item expanded "><a href="../labs/lab.5.html" class="active"><strong aria-hidden="true">2.4.</strong> lab.5 - MPI asynchronous</a></li></ol></li><li class="chapter-item expanded "><a href="../course-research-forum.html"><strong aria-hidden="true">3.</strong> 📢 Course Research Forum</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../forums/2024/crf-2024.html"><strong aria-hidden="true">3.1.</strong> 2024</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -175,27 +175,36 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="programmazione-concorrente-parallela-e-su-cloud"><a class="header" href="#programmazione-concorrente-parallela-e-su-cloud">Programmazione Concorrente, Parallela e su Cloud</a></h1>
-<h2 id="lab-assignment-2"><a class="header" href="#lab-assignment-2">Lab assignment 2</a></h2>
-<ul>
-<li><a href="https://github.com/spagnuolocarmine/ubuntu-openmpi-openmp">🔗 MPI on Cloud VM cluster</a></li>
-<li>Set up a cluster comprising 2 (or more) MPI nodes and run the MPI hello world programs:
-<ul>
-<li><a href="https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/hello_world_mpi.c">hello_world_mpi.c</a></li>
-<li><a href="https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/hello_world_mpi_2.c">hello_world_mpi_2.c</a></li>
-<li><a href="https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/hello_world_mpi_3.c">hello_world_mpi_3.c</a></li>
-</ul>
+<h2 id="lab-assignment-3---mpi-point-to-point-communication"><a class="header" href="#lab-assignment-3---mpi-point-to-point-communication">Lab assignment 3 - MPI Point-to-Point Communication</a></h2>
+<p><strong>Develop an MPI program in C for the following problems:</strong></p>
+<ol>
+<li>
+<p><strong><em>Ring</em></strong>: Given <strong>P</strong> processes, the process with rank <em>i</em> sends an integer value to the process with rank <em>i+1</em>. Note that the communication pattern is circular and toroidal, so the process with rank <em>P-1</em> sends to the process with rank <em>0</em>. The program execution involves 10 iterations. In each iteration, processes increment the value received from the left neighbor by a pseudo-random integer between 0-100. A particular iteration ends when the value received by a process exceeds a certain threshold <em>S</em> provided as input to the program. At the end of the 10 iterations, the program writes to standard output (rank 0) the average number of communication rounds needed to converge using <em>P</em> and <em>S</em>. Note that random number generators should not be reinitialized between iterations. It is recommended to initialize the generators using the rank value.</p>
+<p><img src="https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/ring.png" alt="ring.png" /></p>
 </li>
+<li>
+<p>Calculate the maximum and minimum of arrays of integer values using <em>P</em> processes and blocking communication operations.</p>
+</li>
+<li>
+<p>Develop the Reduce functionality in the <em>mycollective</em> library, capable of supporting the maximum and minimum operators of an array of integers.</p>
+</li>
+<li>
+<p>Modify the <em>mycollective</em> library to implement gather, scatter, broadcast, and reduce operations in non-blocking mode. Note that these operations involve multiple processes; therefore, the library should also provide a function to wait for an array of MPI_Request, utilizing the operations offered by MPI.</p>
+</li>
+</ol>
+<ul>
+<li><em>Furthermore, note that the rank values refer to the processes' indices obtained from the MPI_COMM_WORLD communicator.</em></li>
 </ul>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../labs/lab.2.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../labs/lab.4.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="../labs/lab.4.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="../course-research-forum.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -205,11 +214,11 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../labs/lab.2.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../labs/lab.4.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="../labs/lab.4.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="../course-research-forum.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>

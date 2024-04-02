@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>lab.3 - MPI GCP cluster </title>
+        <title>lab.4 - MPI synchronous</title>
 
 
         <!-- Custom HTML head -->
@@ -89,7 +89,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">1.</strong> 🤗 Student Welcome</a></li><li class="chapter-item expanded "><a href="../calendar.html"><strong aria-hidden="true">2.</strong> 🗓️ Calendar</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../labs/lab.2.html"><strong aria-hidden="true">2.1.</strong> lab.2 - GCP</a></li><li class="chapter-item expanded "><a href="../labs/lab.3.html" class="active"><strong aria-hidden="true">2.2.</strong> lab.3 - MPI GCP cluster </a></li><li class="chapter-item expanded "><a href="../labs/lab.4.html"><strong aria-hidden="true">2.3.</strong> lab.4 - MPI synchronous</a></li><li class="chapter-item expanded "><a href="../labs/lab.5.html"><strong aria-hidden="true">2.4.</strong> lab.5 - MPI asynchronous</a></li></ol></li><li class="chapter-item expanded "><a href="../course-research-forum.html"><strong aria-hidden="true">3.</strong> 📢 Course Research Forum</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../forums/2024/crf-2024.html"><strong aria-hidden="true">3.1.</strong> 2024</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">1.</strong> 🤗 Student Welcome</a></li><li class="chapter-item expanded "><a href="../calendar.html"><strong aria-hidden="true">2.</strong> 🗓️ Calendar</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../labs/lab.2.html"><strong aria-hidden="true">2.1.</strong> lab.2 - GCP</a></li><li class="chapter-item expanded "><a href="../labs/lab.3.html"><strong aria-hidden="true">2.2.</strong> lab.3 - MPI GCP cluster </a></li><li class="chapter-item expanded "><a href="../labs/lab.4.html" class="active"><strong aria-hidden="true">2.3.</strong> lab.4 - MPI synchronous</a></li><li class="chapter-item expanded "><a href="../labs/lab.5.html"><strong aria-hidden="true">2.4.</strong> lab.5 - MPI asynchronous</a></li></ol></li><li class="chapter-item expanded "><a href="../course-research-forum.html"><strong aria-hidden="true">3.</strong> 📢 Course Research Forum</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../forums/2024/crf-2024.html"><strong aria-hidden="true">3.1.</strong> 2024</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -175,27 +175,56 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="programmazione-concorrente-parallela-e-su-cloud"><a class="header" href="#programmazione-concorrente-parallela-e-su-cloud">Programmazione Concorrente, Parallela e su Cloud</a></h1>
-<h2 id="lab-assignment-2"><a class="header" href="#lab-assignment-2">Lab assignment 2</a></h2>
+<h2 id="lab-assignment-3---mpi-point-to-point-communication"><a class="header" href="#lab-assignment-3---mpi-point-to-point-communication">Lab assignment 3 - MPI Point-to-Point Communication</a></h2>
+<p><strong>Develop an MPI program in C for the following problems, using only the MPI_Send and MPI_Recv operations:</strong></p>
+<ol>
+<li>Exchange of an integer value between two MPI processes.</li>
+<li>Sending a string (read from stdin) from the process with rank <strong>0</strong> to the process with rank <strong>1</strong>.</li>
+<li>Given <strong>P</strong> MPI processes and an array of integer values with length <strong>N</strong>, perform the following operations:
 <ul>
-<li><a href="https://github.com/spagnuolocarmine/ubuntu-openmpi-openmp">🔗 MPI on Cloud VM cluster</a></li>
-<li>Set up a cluster comprising 2 (or more) MPI nodes and run the MPI hello world programs:
-<ul>
-<li><a href="https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/hello_world_mpi.c">hello_world_mpi.c</a></li>
-<li><a href="https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/hello_world_mpi_2.c">hello_world_mpi_2.c</a></li>
-<li><a href="https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/hello_world_mpi_3.c">hello_world_mpi_3.c</a></li>
+<li><em>Broadcasting</em>, the process with rank <strong>0</strong> sends to all processes <strong>1..P-1</strong>;</li>
+<li><em>Gathering</em>, the process with rank <strong>0</strong> receives an integer value from all processes <strong>1</strong>...<strong>P-1</strong>;</li>
+<li><em>Scatter</em>, the process with rank <strong>0</strong> sends a portion of the array to each process in <strong>1</strong>...<strong>P-1</strong>.</li>
 </ul>
 </li>
+<li>Starting from the previous point, generalize the programs to obtain a library <em>mycollective</em>. There are no constraints on the function signatures and/or computational requirements.</li>
+<li>Evaluate the performance of the implemented library in sending the data types <strong>MPI_Int</strong> and <strong>MPI_Char</strong>, calculating the execution times on a single machine varying the size of <strong>N</strong> and the number of MPI processes.</li>
+</ol>
+<ul>
+<li>How to calculate the execution time?</li>
+</ul>
+<pre><code class="language-c">/*................*/
+double start, end;
+MPI_Init(&amp;argc, &amp;argv);
+MPI_Comm_rank(MPI_COMM_WORLD, &amp;rank);
+MPI_Barrier(MPI_COMM_WORLD); /* tutti i processi sono inizializzati */
+start = MPI_Wtime();
+/*----------------*/
+/*................*/
+/*codice programma*/
+/*................*/
+/*----------------*/
+MPI_Barrier(MPI_COMM_WORLD); /* tutti i processi hanno terminato */
+end = MPI_Wtime();
+MPI_Finalize();
+if (rank == 0) { /* Master node scrive su stdout il tempo o su file */
+    printf("Time in ms = %f\n", end-start);
+}
+/*................*/
+</code></pre>
+<ul>
+<li><em>Note that the rank values refer to the processes' indices obtained from the MPI_COMM_WORLD communicator.</em></li>
 </ul>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../labs/lab.2.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../labs/lab.3.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="../labs/lab.4.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="../labs/lab.5.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -205,11 +234,11 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../labs/lab.2.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../labs/lab.3.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="../labs/lab.4.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="../labs/lab.5.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
