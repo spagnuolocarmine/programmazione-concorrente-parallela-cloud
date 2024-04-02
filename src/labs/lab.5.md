@@ -7,8 +7,8 @@
    
    ![ring.png](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/ring.png)
 
-2. Calculate the maximum, minimum, and average of arrays of integer values using *P* processes and blocking communication operations.
-3. Develop the Reduce functionality in the _mycollective_ library, capable of supporting the maximum, minimum, and average operators of an array of integers.
+2. Calculate the maximum and minimum of arrays of integer values using *P* processes and blocking communication operations.
+3. Develop the Reduce functionality in the _mycollective_ library, capable of supporting the maximum and minimum operators of an array of integers.
 4. Modify the _mycollective_ library to implement gather, scatter, broadcast, and reduce operations in non-blocking mode. Note that these operations involve multiple processes; therefore, the library should also provide a function to wait for an array of MPI_Request, utilizing the operations offered by MPI.
 
 - *Furthermore, note that the rank values refer to the processes' indices obtained from the MPI_COMM_WORLD communicator.*
