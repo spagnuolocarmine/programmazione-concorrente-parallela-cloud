@@ -28,8 +28,8 @@
 | 1️⃣0️⃣ |11/04/2024|MPI - Noncontiguous Data, Derived Datatypes - Collective Communication |📒 |🅰️||📖 Have fun with MPI in C<br>[- 📌 Chapter 3.1 - Communicate Noncontiguous Data](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/communicate-noncontiguous-data)<br>[- 📌 Chapter 3.2 - Derived Datatypes](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/derived-datatypes)<br>[-📌 Chapter 3 - Collective Communication](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/collective-communications-overview)<br>[ 📓 mpi-derived-datatypes.pdf](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/mpi-derived-datatypes.pdf)| <!--LINKS.LABS-->|
 | 1️⃣1️⃣ |12/04/2024|MPI Labs - Noncontiguous Data, Derived Datatypes - Collective Communication |⚗️| 🅰️|[mpi_latency.c](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/mpi_latency.c) |<!--REF--> | [lab.6 - MPI.4](labs/lab.6.md)<br>[lab.7 - MPI.5](labs/lab.7.md)|
 | 1️⃣2️⃣ |18/04/2024|[Scalability Research Forum](forums/2024/crf-2024.md)|⚗️|🅰️|||[lab.8 - MPI.6](labs/lab.8.md)|
-| 1️⃣3️⃣ |19/04/2024|<!--TITLE--> |📒|🅱️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
-| 1️⃣4️⃣ |<span style="color:red;">26/04/2024</span>|<!--TITLE--> |📒|🅱️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
+| 1️⃣3️⃣ |19/04/2024|Concorrenza|📒|🅱️|<!--MATERIAL--> | 📕 Cap. 1, Appendice A.2 | <!--LINKS.LABS-->|
+| 1️⃣4️⃣ |<span style="color:red;">26/04/2024|<!--TITLE--> |📒|🅱️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
 | 1️⃣5️⃣ |<span style="color:red;">02/05/2024</span>|<!--TITLE--> |📒|🅱️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
 | 1️⃣6️⃣ |<span style="color:red;">03/05/2024</span>|<!--TITLE--> |📒|🅱️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
 | 1️⃣7️⃣ |<span style="color:red;">09/05/2024</span>|<!--TITLE--> |📒|🅱️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
