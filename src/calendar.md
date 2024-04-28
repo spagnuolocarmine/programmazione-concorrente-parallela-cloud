@@ -29,9 +29,9 @@
 | 1️⃣1️⃣ |12/04/2024|MPI Labs - Noncontiguous Data, Derived Datatypes - Collective Communication |⚗️| 🅰️|[mpi_latency.c](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/mpi_latency.c) |<!--REF--> | [lab.6 - MPI.4](labs/lab.6.md)<br>[lab.7 - MPI.5](labs/lab.7.md)|
 | 1️⃣2️⃣ |18/04/2024|[Scalability Research Forum](forums/2024/crf-2024.md)|⚗️|🅰️|||[lab.8 - MPI.6](labs/lab.8.md)|
 | 1️⃣3️⃣ |19/04/2024|Introduction to concurrency|📒|🅱️| | 📕 Cap. 1, Appendice B | |
-| 1️⃣4️⃣ |26/04/2024|Mutual exclusion |📒|🅱️| |📕 Cap. 2||
-| 1️⃣5️⃣ |<span style="color:red;">02/05/2024</span>|<!--TITLE--> |📒|🅱️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
-| 1️⃣6️⃣ |<span style="color:red;">03/05/2024</span>|<!--TITLE--> |📒|🅱️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
+| 1️⃣4️⃣ |26/04/2024|Mutual exclusion 1 |📒|🅱️| |📕 Cap. 2 (2.1->2.6)| |
+| 1️⃣5️⃣ |02/05/2024|Mutual exclusion 2 |📒|🅱️| |📕 Cap. 2 (2.7->2.8) | |
+| 1️⃣6️⃣ |03/05/2024|Concurrent Objects |📒|🅱️| Fix [Double-Checking Locking](https://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html) |📕 Cap. 4 ||
 | 1️⃣7️⃣ |<span style="color:red;">09/05/2024</span>|<!--TITLE--> |📒|🅱️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
 | 1️⃣8️⃣ |<span style="color:red;">10/05/2024</span>|<!--TITLE--> |📒|🅱️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
 | 1️⃣9️⃣ |<span style="color:red;">16/05/2024</span>|<!--TITLE--> |📒|🅱️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
