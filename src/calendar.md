@@ -38,8 +38,9 @@
 | 2️⃣0️⃣ |<span style="color:red;">17/05/2024</span>|<!--TITLE--> |📒|🅱️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
 | 2️⃣1️⃣ |<span style="color:red;">23/05/2024</span>|<!--TITLE--> |📒|🅱️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
 | 2️⃣2️⃣ |<span style="color:red;">24/05/2024</span>|<!--TITLE--> |📒|🅱️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
-| 2️⃣3️⃣ |<span style="color:red;">30/05/2024</span>|<!--TITLE--> |📒|🅱️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
-| 2️⃣4️⃣ |<span style="color:red;">31/05/2024</span>|<!--TITLE--> |📒|🅱️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
+| 2️⃣3️⃣ |30/05/2024|[Scalability Research Forum 1️⃣](forums/2024/crf-2024.md)||||||
+| 2️⃣4️⃣ |31/05/2024|[Scalability Research Forum 2️⃣](forums/2024/crf-2024.md)||||||
+|     |07/06/2024|[Scalability Research Forum 3️⃣](forums/2024/crf-2024.md)||||||
 <!--
 
 
