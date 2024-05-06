@@ -32,8 +32,8 @@
 | 1️⃣4️⃣ |26/04/2024|Mutual exclusion 1 |📒|🅱️| |📕 Cap. 2 (2.1->2.6)| |
 | 1️⃣5️⃣ |02/05/2024|Mutual exclusion 2 |📒|🅱️| |📕 Cap. 2 (2.7->2.8) | |
 | 1️⃣6️⃣ |03/05/2024|Concurrent Objects |📒|🅱️| Fix [Double-Checking Locking](https://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html) |📕 Cap. 3 ||
-| 1️⃣7️⃣ |<span style="color:red;">09/05/2024</span>|<!--TITLE--> |⚗️|🅰️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
-| 1️⃣8️⃣ |<span style="color:red;">10/05/2024</span>|<!--TITLE--> |📒|🅱️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
+| 1️⃣7️⃣ |09/05/2024|Lab MPI and SFR |⚗️|🅰️🅱️||||
+| 1️⃣8️⃣ |10/05/2024|Spin Locks |📒|🅱️| |📕 Cap. 7  ||
 | 1️⃣9️⃣ |<span style="color:red;">16/05/2024</span>|<!--TITLE--> |⚗️|🅰️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
 | 2️⃣0️⃣ |<span style="color:red;">17/05/2024</span>|<!--TITLE--> |📒|🅱️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
 | 2️⃣1️⃣ |<span style="color:red;">23/05/2024</span>|<!--TITLE--> |⚗️|🅰️🅱️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
