@@ -34,8 +34,8 @@
 | 1️⃣6️⃣ |03/05/2024|Concurrent Objects |📒|🅱️| Fix [Double-Checking Locking](https://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html) |📕 Cap. 3 ||
 | 1️⃣7️⃣ |09/05/2024|Lab MPI and SFR |⚗️|🅰️🅱️||||
 | 1️⃣8️⃣ |10/05/2024|Spin Locks |📒|🅱️| |📕 Cap. 7  ||
-| 1️⃣9️⃣ |<span style="color:red;">16/05/2024</span>|<!--TITLE--> |📒|🅰️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
-| 2️⃣0️⃣ |17/05/2024|Lab MPI and SFR  |⚗️|🅱️||||
+| 1️⃣9️⃣ |16/05/2024|Monitor|📒|🅱️||||
+| 2️⃣0️⃣ |17/05/2024|Lab MPI and SFR  |⚗️|🅱️||📕 Cap. 8||
 | 2️⃣1️⃣ |<span style="color:red;">23/05/2024</span>|<!--TITLE--> |⚗️|🅰️🅱️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
 | 2️⃣2️⃣ |<span style="color:red;">24/05/2024</span>|<!--TITLE--> |📒|🅱️|<!--MATERIAL--> |<!--REF--> | <!--LINKS.LABS-->|
 | 2️⃣3️⃣ |30/05/2024|[Scalability Research Forum 1️⃣](forums/2024/crf-2024.md)||||||
