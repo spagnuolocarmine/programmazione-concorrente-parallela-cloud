@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>lab.5 - MPI p2p</title>
+        <title>2025</title>
 
 
         <!-- Custom HTML head -->
@@ -12,33 +12,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="icon" href="../favicon.svg">
-        <link rel="shortcut icon" href="../favicon.png">
-        <link rel="stylesheet" href="../css/variables.css">
-        <link rel="stylesheet" href="../css/general.css">
-        <link rel="stylesheet" href="../css/chrome.css">
-        <link rel="stylesheet" href="../css/print.css" media="print">
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="../fonts/fonts.css">
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="../highlight.css">
-        <link rel="stylesheet" href="../tomorrow-night.css">
-        <link rel="stylesheet" href="../ayu-highlight.css">
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
-        <link rel="stylesheet" href="../custom.css">
+        <link rel="stylesheet" href="../../custom.css">
 
 
         <!-- Provide site root to javascript -->
         <script>
-            var path_to_root = "../";
+            var path_to_root = "../../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="../toc.js"></script>
+        <script src="../../toc.js"></script>
     </head>
     <body>
     <div id="body-container">
@@ -90,7 +90,7 @@
             <!-- populated by js -->
             <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
             <noscript>
-                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+                <iframe class="sidebar-iframe-outer" src="../../toc.html"></iframe>
             </noscript>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -124,7 +124,7 @@
                     <h1 class="menu-title"></h1>
 
                     <div class="right-buttons">
-                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
 
@@ -153,39 +153,17 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="programmazione-concorrente-parallela-e-su-cloud"><a class="header" href="#programmazione-concorrente-parallela-e-su-cloud">Programmazione Concorrente, Parallela e su Cloud</a></h1>
-<h2 id="lab-assignment-3---mpi-point-to-point-communication"><a class="header" href="#lab-assignment-3---mpi-point-to-point-communication">Lab assignment 3 - MPI Point-to-Point Communication</a></h2>
-<p><strong>Develop an MPI program in C for the following problems:</strong></p>
-<ol>
-<li>
-<p><strong><em>Ring</em></strong>: Given <strong>P</strong> processes, the process with rank <em>i</em> sends an integer value to the process with rank <em>i+1</em>. Note that the communication pattern is circular and toroidal, so the process with rank <em>P-1</em> sends to the process with rank <em>0</em>. The program execution involves 10 iterations. In each iteration, processes increment the value received from the left neighbor by a pseudo-random integer between 0-100. A particular iteration ends when the value received by a process exceeds a certain threshold <em>S</em> provided as input to the program. At the end of the 10 iterations, the program writes to standard output (rank 0) the average number of communication rounds needed to converge using <em>P</em> and <em>S</em>. Note that random number generators should not be reinitialized between iterations. It is recommended to initialize the generators using the rank value.</p>
-<p><img src="https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/ring.png" alt="ring.png" /></p>
-</li>
-<li>
-<p>Calculate the maximum and minimum of arrays of integer values using <em>P</em> processes and blocking and non blocking communication operations.</p>
-</li>
-<li>
-<p>Develop the Reduce functionality in the <em>mycollective</em> library, capable of supporting the maximum and minimum operators of an array of integers.</p>
-</li>
-<li>
-<p>Modify the <em>mycollective</em> library to implement gather, scatter, broadcast, and reduce operations in non-blocking mode. Note that these operations involve multiple processes; therefore, the library should also provide a function to wait for an array of MPI_Request, utilizing the operations offered by MPI.</p>
-</li>
-</ol>
-<ul>
-<li><em>Furthermore, note that the rank values refer to the processes' indices obtained from the MPI_COMM_WORLD communicator.</em></li>
-</ul>
+                        <h1 id="srf---scalability-research-forum"><a class="header" href="#srf---scalability-research-forum">SRF - Scalability Research Forum</a></h1>
+<h2 id="2st-edition-2025"><a class="header" href="#2st-edition-2025">2st Edition 2️⃣0️⃣2️⃣5️⃣</a></h2>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../labs/lab.4.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../../forums/2024/crf-2024.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="../labs/lab.6.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
 
                         <div style="clear: both"></div>
                     </nav>
@@ -193,13 +171,10 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../labs/lab.4.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../../forums/2024/crf-2024.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="../labs/lab.6.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
             </nav>
 
         </div>
@@ -212,13 +187,13 @@
         </script>
 
 
-        <script src="../elasticlunr.min.js"></script>
-        <script src="../mark.min.js"></script>
-        <script src="../searcher.js"></script>
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
 
-        <script src="../clipboard.min.js"></script>
-        <script src="../highlight.js"></script>
-        <script src="../book.js"></script>
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
 
         <!-- Custom JS scripts -->
 
