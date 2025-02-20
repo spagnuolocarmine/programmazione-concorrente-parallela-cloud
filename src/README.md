@@ -54,11 +54,11 @@ You'll receive account information during class sessions. If needed, feel free t
 -  **Oral exam** covering all topics discussed in class (to be scheduled via email with the instructor on a date between two exam sessions).
 
 ### 🗓️ Exam dates 
-- Presentation: May 2024
-- First oral session: June 17, 2024
-- Second oral session: July 10, 2024
-- Third oral session: July 26, 2024 (by the end of July)
-- Fourth oral session: September 3, 2024 (before the start of the first semester courses)
+- Presentation: May 2025
+- First oral session: June 16, 2025
+- Second oral session: July 11, 2025
+- Third oral session: July 28, 2025 (by the end of July)
+- Fourth oral session: September 10, 2025 (before the start of the first semester courses)
   
 
 

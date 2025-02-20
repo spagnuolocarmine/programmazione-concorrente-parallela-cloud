@@ -8,4 +8,5 @@ In this engaging event, students are divided into groups and have the opportunit
 ## Editions 
 
 - [2024](forums/2024/crf-2024.md)
+- [2025](forums/2025/crf-2025.md)
 
