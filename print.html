@@ -33,10 +33,11 @@
         <link rel="stylesheet" href="custom.css">
 
 
-        <!-- Provide site root to javascript -->
+        <!-- Provide site root and default themes to javascript -->
         <script>
-            var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc.js"></script>
@@ -46,8 +47,8 @@
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
 
                 if (theme.startsWith('"') && theme.endsWith('"')) {
                     localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
@@ -61,7 +62,8 @@
 
         <!-- Set the theme before any content is loaded, prevents flash -->
         <script>
-            var theme;
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             const html = document.documentElement;
@@ -74,8 +76,8 @@
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var sidebar = null;
-            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
@@ -111,6 +113,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
@@ -253,10 +256,11 @@
 <tr><td>8️⃣</td><td>21/03/2025</td><td>Lab Message Passing Interface (MPI)</td><td>⚗️</td><td>🅰️</td><td></td><td><a href="https://github.com/spagnuolocarmine/ubuntu-openmpi-openmp">🔗 MPI on Cloud VM cluster</a></td><td><a href="labs/lab.3.html">lab.3 - MPI.1</a><a href="labs/lab.4.html">lab.4 - MPI.2</a></td></tr>
 <tr><td>9️⃣</td><td>27/03/2025</td><td>MPI - Asynchronous Communication</td><td>📒⚗️</td><td>🅰️</td><td><a href="https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/mpi_bug2.c">Find the bug 2</a></td><td>📖 Have fun with MPI in C <br> - 📌 <a href="https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/non-blocking-communication">Chapter 2.4 - Non-Blocking Communication</a></td><td><a href="labs/lab.5.html">lab.5 - MPI.3</a></td></tr>
 <tr><td>1️⃣0️⃣</td><td>28/03/2025</td><td>MPI - Noncontiguous Data, Derived Datatypes - Collective Communication</td><td>📒</td><td>🅰️</td><td></td><td>📖 Have fun with MPI in C<br><a href="https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/communicate-noncontiguous-data">- 📌 Chapter 3.1 - Communicate Noncontiguous Data</a><br><a href="https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/derived-datatypes">- 📌 Chapter 3.2 - Derived Datatypes</a><br><a href="https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/collective-communications-overview">-📌 Chapter 3 - Collective Communication</a><br><a href="https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/mpi-derived-datatypes.pdf"> 📓 mpi-derived-datatypes.pdf</a></td><td></td></tr>
+<tr><td>1️⃣1️⃣</td><td>03/04/2024</td><td>MPI Labs - Noncontiguous Data, Derived Datatypes - Collective Communication</td><td>⚗️</td><td>🅰️</td><td><a href="https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/mpi_latency.c">mpi_latency.c</a></td><td></td><td><a href="labs/lab.6.html">lab.6 - MPI.4</a><br><a href="labs/lab.7.html">lab.7 - MPI.5</a></td></tr>
+<tr><td>1️⃣2️⃣</td><td>04/04/2024</td><td>Introduction to concurrency</td><td>📒</td><td>🅱️</td><td></td><td>📕 Cap. 1, Appendice B</td><td></td></tr>
 </tbody></table>
-</div><!--| 1️⃣1️⃣ |12/04/2024|MPI Labs - Noncontiguous Data, Derived Datatypes - Collective Communication |⚗️| 🅰️|[mpi_latency.c](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/mpi_latency.c) | | [lab.6 - MPI.4](labs/lab.6.md)<br>[lab.7 - MPI.5](labs/lab.7.md)|
-| 1️⃣2️⃣ |18/04/2024|[Scalability Research Forum](forums/2024/crf-2024.md)|⚗️|🅰️|||[lab.8 - MPI.6](labs/lab.8.md)|
-| 1️⃣3️⃣ |19/04/2024|Introduction to concurrency|📒|🅱️| | 📕 Cap. 1, Appendice B | |
+</div><!--
+| 1️⃣ |18/04/2024|[Scalability Research Forum](forums/2024/crf-2024.md)|⚗️|🅰️|||[lab.8 - MPI.6](labs/lab.8.md)|
 | 1️⃣4️⃣ |26/04/2024|Mutual exclusion 1 |📒|🅱️| |📕 Cap. 2 (2.1->2.6)| |
 | 1️⃣5️⃣ |02/05/2024|Mutual exclusion 2 |📒|🅱️| |📕 Cap. 2 (2.7->2.8) | |
 | 1️⃣6️⃣ |03/05/2024|Concurrent Objects |📒|🅱️| Fix [Double-Checking Locking](https://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html) |📕 Cap. 3 ||
