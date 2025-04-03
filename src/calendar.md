@@ -29,18 +29,18 @@
  1️⃣1️⃣ |03/04/2024|MPI Labs - Noncontiguous Data, Derived Datatypes - Collective Communication |⚗️| 🅰️|[mpi_latency.c](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/mpi_latency.c) | | [lab.6 - MPI.4](labs/lab.6.md)<br>[lab.7 - MPI.5](labs/lab.7.md)|
 | 1️⃣2️⃣|04/04/2024|Introduction to concurrency|📒|🅱️| | 📕 Cap. 1, Appendice B | |
 <!--
-| 1️⃣ |18/04/2024|[Scalability Research Forum](forums/2024/crf-2024.md)|⚗️|🅰️|||[lab.8 - MPI.6](labs/lab.8.md)|
-| 1️⃣4️⃣ |26/04/2024|Mutual exclusion 1 |📒|🅱️| |📕 Cap. 2 (2.1->2.6)| |
-| 1️⃣5️⃣ |02/05/2024|Mutual exclusion 2 |📒|🅱️| |📕 Cap. 2 (2.7->2.8) | |
-| 1️⃣6️⃣ |03/05/2024|Concurrent Objects |📒|🅱️| Fix [Double-Checking Locking](https://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html) |📕 Cap. 3 ||
-| 1️⃣7️⃣ |09/05/2024|Lab MPI and SFR |⚗️|🅰️🅱️||||
-| 1️⃣8️⃣ |10/05/2024|Spin Locks |📒|🅱️| |📕 Cap. 7  ||
-| 1️⃣9️⃣ |16/05/2024|Monitor|📒|🅱️||||
-| 2️⃣0️⃣ |17/05/2024|Lab MPI and SFR  |⚗️|🅱️||📕 Cap. 8||
-| 2️⃣1️⃣ |23/05/2024|Lists |📒|🅱️| |📕 Cap. 9 | |
-| 2️⃣2️⃣ |24/05/2024|Queues |📒|🅱️||📕 Cap. 10 | |
-| 2️⃣3️⃣ |30/05/2024|[Scalability Research Forum 1️⃣](forums/2024/crf-2024.md)||||||
-| 2️⃣4️⃣ |31/05/2024|[Scalability Research Forum 2️⃣](forums/2024/crf-2024.md)||||||
-|     |07/06/2024|[Scalability Research Forum 3️⃣](forums/2024/crf-2024.md)||||||
+| 1️⃣3️⃣ |10/04/2025|Mutual exclusion 1 |📒|🅱️| |📕 Cap. 2 (2.1->2.6)| |
+| 1️⃣4️⃣ |11/04/2025|Mutual exclusion 2 |📒|🅱️| |📕 Cap. 2 (2.7->2.8) | |
+| 1️⃣5️⃣ |24/04/2025|[Scalability Research Forum](forums/2024/crf-2024.md)|⚗️|🅰️|||[lab.8 - MPI.6](labs/lab.8.md)|
+| 1️⃣6️⃣ |02/05/2025|Concurrent Objects |📒|🅱️| Fix [Double-Checking Locking](https://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html) |📕 Cap. 3 ||
+| 1️⃣7️⃣ |08/05/2025|Lab MPI and SFR |⚗️|🅰️🅱️||||
+| 1️⃣8️⃣ |09/05/2025|Spin Locks |📒|🅱️| |📕 Cap. 7  ||
+| 1️⃣9️⃣ |15/05/2025|Monitor|📒|🅱️||||
+| 2️⃣0️⃣ |16/05/2025|Lab MPI and SFR  |⚗️|🅱️||📕 Cap. 8||
+| 2️⃣1️⃣ |22/05/2025|Lists |📒|🅱️| |📕 Cap. 9 | |
+| 2️⃣2️⃣ |23/05/2025|Queues |📒|🅱️||📕 Cap. 10 | |
+| 2️⃣3️⃣ |29/05/2025|[Scalability Research Forum 1️⃣](forums/2024/crf-2024.md)||||||
+| 2️⃣4️⃣ |30/05/2025|[Scalability Research Forum 2️⃣](forums/2024/crf-2024.md)||||||
+
 
 -->
