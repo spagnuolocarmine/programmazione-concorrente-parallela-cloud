@@ -28,7 +28,6 @@
 | 1️⃣0️⃣ |28/03/2025|MPI - Noncontiguous Data, Derived Datatypes - Collective Communication |📒 |🅰️||📖 Have fun with MPI in C<br>[- 📌 Chapter 3.1 - Communicate Noncontiguous Data](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/communicate-noncontiguous-data)<br>[- 📌 Chapter 3.2 - Derived Datatypes](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/derived-datatypes)<br>[-📌 Chapter 3 - Collective Communication](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/collective-communications-overview)<br>[ 📓 mpi-derived-datatypes.pdf](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/mpi-derived-datatypes.pdf)| |
  1️⃣1️⃣ |03/04/2024|MPI Labs - Noncontiguous Data, Derived Datatypes - Collective Communication |⚗️| 🅰️|[mpi_latency.c](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/mpi_latency.c) | | [lab.6 - MPI.4](labs/lab.6.md)<br>[lab.7 - MPI.5](labs/lab.7.md)|
 | 1️⃣2️⃣|04/04/2024|Introduction to concurrency|📒|🅱️| | 📕 Cap. 1, Appendice B | |
-
 | 1️⃣3️⃣ |10/04/2025|Mutual exclusion 1 |📒|🅱️| |📕 Cap. 2 (2.1->2.6)| |
 | 1️⃣4️⃣ |11/04/2025|[Scalability Research Forum](forums/2024/crf-2024.md)|⚗️|🅰️|||[lab.8 - MPI.6](labs/lab.8.md)|
 | 1️⃣5️⃣ |24/04/2025|Mutual exclusion 2 |📒|🅱️| |📕 Cap. 2 (2.7->2.8) | |
