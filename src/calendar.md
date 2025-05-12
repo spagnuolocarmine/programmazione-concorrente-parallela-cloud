@@ -37,6 +37,6 @@
 | 1️⃣9️⃣ |16/05/2025|Lists |📒|🅱️| |📕 Cap. 9 | |
 <!--| 2️⃣0️⃣ |22/05/2025|Queues |📒|🅱️||📕 Cap. 10 | |
 | 2️⃣1️⃣ |23/05/2025|Lab |📒|🅱️||📕 Cap. 10 | |
-| 2️⃣2️⃣|29/05/2025 (4 ore)|[Scalability Research Forum 1️⃣](forums/2024/crf-2024.md)||||||
-| 2️⃣3️⃣ |30/05/2025 (4 ore)|[Scalability Research Forum 2️⃣](forums/2024/crf-2024.md)||||||
+| 2️⃣2️⃣|29/05/2025 (4 ore)|[Scalability Research Forum 1️⃣](forums/2025/crf-2025.md)||||||
+| 2️⃣3️⃣ |30/05/2025 (4 ore)|[Scalability Research Forum 2️⃣](forums/2025/crf-2025.md)||||||
 -->
