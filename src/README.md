@@ -29,8 +29,7 @@ The growing demand for more computing power is hard to fulfill. Modern computer 
 
 - [Carmine Spagnuolo](https://docenti.unisa.it/028012/home), cspagnuolo [@] unisa.it.
 - The office hours are scheduled after each lesson, or you can request an appointment via email.
-- **Classes**: Thursday 12-2 PM, Friday 12-2 PM (always in room P6).
-- The lessons always start promptly at 12 and finish before 2 PM (generally).
+- **Classes**: Thursday 12-2 PM, Friday 11-1 PM (always in room P6).
 
 # 📚 Textbooks
 - Part 🅰️
@@ -50,15 +49,13 @@ The growing demand for more computing power is hard to fulfill. Modern computer 
 You'll receive account information during class sessions. If needed, feel free to reach out to the teacher for assistance (if you cannot attend).
 
 ## 📝 Exam
--  **Group presentation** on a research article (grants access to oral examination), more details in [Course research Forum](course-research-forum.md). Students from other years or those who have already completed the practical project in MPI will still use the project to gain access to the oral examination.
 -  **Oral exam** covering all topics discussed in class (to be scheduled via email with the instructor on a date between two exam sessions).
 
 ### 🗓️ Exam dates 
-- Presentation: May 2025
-- First oral session: June 16, 2025
-- Second oral session: July 11, 2025
-- Third oral session: July 28, 2025 (by the end of July)
-- Fourth oral session: September 10, 2025 (before the start of the first semester courses)
+- First oral session: June 8, 2026
+- Second oral session: July 30, 2026
+- Third oral session: July 15, 2026
+- Fourth oral session: September 14, 2026 (before the start of the first semester courses)
   
 
 
