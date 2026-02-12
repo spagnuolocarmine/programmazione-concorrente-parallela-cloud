@@ -1,7 +1,6 @@
 [book]
 authors = ["spagnuolocarmine"]
 language = "en"
-multilingual = false
 src = "src"
 [output.html]
 additional-css = ["custom.css"]
