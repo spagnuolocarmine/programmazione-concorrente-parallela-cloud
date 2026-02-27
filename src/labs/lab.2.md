@@ -55,8 +55,6 @@ Ripetere l'esercizio utilizzando la Web console.
 
 ### 5️⃣ **Creazione di un cluster di instanze e2-micro**
 
-![sshkey](https://community-cdn-digitalocean-com.global.ssl.fastly.net/variants/DLcPFpLdv6EiPrU3x65LSQYe/035575f2985fe451d86e717d73691e533a1a00545d7230900ed786341dc3c882)
-
 1. Creare 4 istanze e2.micro;
 2. avviare una nuova sessione remota tramite ```ssh``` per ogni macchina creata ed effettuare gli aggiornamenti 
 	```$ sudo apt-get update && sudo apt-get upgrade -y```;
