@@ -24,20 +24,20 @@
 |6️⃣ |13/03/2026|Introduction to Message Passing Interface (MPI)|📒 | 🅰️ | |[MPI: A Message-Passing Interface Standard Version 3.1](https://www.mpi-forum.org/docs/mpi-3.1/mpi31-report.pdf)<br> [📖 Have fun with MPI in C:](https://www.codingame.com/playgrounds/47058/have-fun-with-mpi-in-c/docker-mpi-environment) <br> [- 📌 Chapter 1 - Introduction](https://www.codingame.com/playgrounds/47058/have-fun-with-mpi-in-c/lets-start-to-have-fun-with-mpi) |  |
 |7️⃣|20/03/2026| Lab MPI Google Cloud|⚗️ | 🅰️ | | [🔗 MPI on Cloud VM cluster](https://github.com/spagnuolocarmine/ubuntu-openmpi-openmp) | [lab.3 - MPI.1](labs/lab.3.md) |
 |8️⃣|26/03/2026| MPI - Synchronous Communication|📒⚗️ | 🅰️ |   | 📖 Have fun with MPI in C: <br> - 📌 [Chapter 2.1 - MPI Memory Model](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/mpi-memory-model)<br> - 📌 [Chapter 2.2 - Blocking Communication](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/blocking-communication)  <br>- 📌 [Chapter 2.3 - Communication Modes](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/communication-modes) | |
-|9️⃣|20/03/2026| Lab Message Passing Interface (MPI)|⚗️ | 🅰️ |[Find the bug 1](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/mpi_bug1.c) | |[lab.4 - MPI.2](labs/lab.4.md) |
-<!--|  |27/03/2025| MPI - Asynchronous Communication|📒⚗️ | 🅰️ | [Find the bug 2](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/mpi_bug2.c) | 📖 Have fun with MPI in C <br> - 📌 [Chapter 2.4 - Non-Blocking Communication](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/non-blocking-communication) | [lab.5 - MPI.3](labs/lab.5.md)|
-| 1️⃣0️⃣ |28/03/2025|MPI - Noncontiguous Data, Derived Datatypes - Collective Communication |📒 |🅰️||📖 Have fun with MPI in C<br>[- 📌 Chapter 3.1 - Communicate Noncontiguous Data](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/communicate-noncontiguous-data)<br>[- 📌 Chapter 3.2 - Derived Datatypes](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/derived-datatypes)<br>[-📌 Chapter 3 - Collective Communication](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/collective-communications-overview)<br>[ 📓 mpi-derived-datatypes.pdf](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/mpi-derived-datatypes.pdf)| |
- 1️⃣1️⃣ |03/04/2024|MPI Labs - Noncontiguous Data, Derived Datatypes - Collective Communication |⚗️| 🅰️|[mpi_latency.c](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/mpi_latency.c) | | [lab.6 - MPI.4](labs/lab.6.md)<br>[lab.7 - MPI.5](labs/lab.7.md)|
-| 1️⃣2️⃣|04/04/2024|Introduction to concurrency|📒|🅱️| | 📕 Cap. 1, Appendice B | |
-| 1️⃣3️⃣ |10/04/2025|Mutual exclusion 1 |📒|🅱️| |📕 Cap. 2 (2.1->2.6)| |
-| 1️⃣4️⃣ |11/04/2025|[Scalability Research Forum](forums/2024/crf-2024.md)|⚗️|🅰️|||[lab.8 - MPI.6](labs/lab.8.md)|
-| 1️⃣5️⃣ |24/04/2025|Mutual exclusion 2 |📒|🅱️| |📕 Cap. 2 (2.7->2.8) | |
-| 1️⃣6️⃣ |08/05/2025|Concurrent Objects |📒|🅱️| Fix [Double-Checking Locking](https://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html) |📕 Cap. 3 ||
-| 1️⃣7️⃣ |09/05/2025|Monitor|📒|🅱️||Cap. 8||
-| 1️⃣8️⃣ |15/05/2025|Spin Locks |📒|🅱️| |📕 Cap. 7  ||
-| 1️⃣9️⃣ |16/05/2025|Lists |📒|🅱️| |📕 Cap. 9 | |
-| 2️⃣0️⃣ |22/05/2025|Queues |📒|🅱️||📕 Cap. 10 | |
-| 2️⃣1️⃣ |23/05/2025|Lab MPI + Q&A Presentazioni Scalability Research Forum  |⚗️|🅰️🅱️||| |
-| 2️⃣2️⃣|29/05/2025 (4 ore)|[Scalability Research Forum 1️⃣](forums/2025/crf-2025.md)||||||
-| 2️⃣3️⃣ |30/05/2025 (4 ore)|[Scalability Research Forum 2️⃣](forums/2025/crf-2025.md)||||||
+|9️⃣|27/03/2026| Lab Message Passing Interface (MPI)|⚗️ | 🅰️ |[Find the bug 1](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/mpi_bug1.c) | |[lab.4 - MPI.2](labs/lab.4.md) |
+<!--| 1️⃣0️⃣ |27/03/2025| MPI - Asynchronous Communication|📒⚗️ | 🅰️ | [Find the bug 2](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/mpi_bug2.c) | 📖 Have fun with MPI in C <br> - 📌 [Chapter 2.4 - Non-Blocking Communication](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/non-blocking-communication) | [lab.5 - MPI.3](labs/lab.5.md)|
+|  1️⃣1️⃣ |28/03/2025|MPI - Noncontiguous Data, Derived Datatypes - Collective Communication |📒 |🅰️||📖 Have fun with MPI in C<br>[- 📌 Chapter 3.1 - Communicate Noncontiguous Data](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/communicate-noncontiguous-data)<br>[- 📌 Chapter 3.2 - Derived Datatypes](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/derived-datatypes)<br>[-📌 Chapter 3 - Collective Communication](https://tech.io/playgrounds/47058/have-fun-with-mpi-in-c/collective-communications-overview)<br>[ 📓 mpi-derived-datatypes.pdf](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/mpi-derived-datatypes.pdf)| |
+ 1️⃣2️⃣|03/04/2024|MPI Labs - Noncontiguous Data, Derived Datatypes - Collective Communication |⚗️| 🅰️|[mpi_latency.c](https://github.com/spagnuolocarmine/programmazione-concorrente-parallela-cloud/raw/main/data/mpi_latency.c) | | [lab.6 - MPI.4](labs/lab.6.md)<br>[lab.7 - MPI.5](labs/lab.7.md)|
+| 1️⃣3️⃣|04/04/2024|Introduction to concurrency|📒|🅱️| | 📕 Cap. 1, Appendice B | |
+| 1️⃣4️⃣ |10/04/2025|Mutual exclusion 1 |📒|🅱️| |📕 Cap. 2 (2.1->2.6)| |
+| 1️⃣5️⃣  |11/04/2025|[Scalability Research Forum](forums/2024/crf-2024.md)|⚗️|🅰️|||[lab.8 - MPI.6](labs/lab.8.md)|
+| 1️⃣6️⃣|24/04/2025|Mutual exclusion 2 |📒|🅱️| |📕 Cap. 2 (2.7->2.8) | |
+| 1️⃣7️⃣ |08/05/2025|Concurrent Objects |📒|🅱️| Fix [Double-Checking Locking](https://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html) |📕 Cap. 3 ||
+| 1️⃣8️⃣ |09/05/2025|Monitor|📒|🅱️||Cap. 8||
+| 1️⃣9️⃣ |15/05/2025|Spin Locks |📒|🅱️| |📕 Cap. 7  ||
+| 2️⃣0️⃣ |16/05/2025|Lists |📒|🅱️| |📕 Cap. 9 | |
+| 2️⃣1️⃣ |22/05/2025|Queues |📒|🅱️||📕 Cap. 10 | |
+| 2️⃣2️⃣ |23/05/2025|Lab MPI + Q&A Presentazioni Scalability Research Forum  |⚗️|🅰️🅱️||| |
+| 2️⃣3️⃣|29/05/2025 (4 ore)|[Scalability Research Forum 1️⃣](forums/2025/crf-2025.md)||||||
+| 2️⃣4️⃣ |30/05/2025 (4 ore)|[Scalability Research Forum 2️⃣](forums/2025/crf-2025.md)||||||
 -->
