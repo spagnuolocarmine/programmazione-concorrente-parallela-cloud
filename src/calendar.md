@@ -31,10 +31,10 @@
 |1️⃣3️⃣|17/04/2026| MPI lab |⚗️ | 🅰️ |  |  | [lab.7 - MPI.5](labs/lab.7.md)<br>[lab.8 - MPI.6](labs/lab.8.md)|
 |1️⃣4️⃣|23/04/2026|Introduction to concurrency|📒|🅱️| | 📕 Cap. 1, Appendice B | |
 |1️⃣5️⃣|24/04/2026|Mutual exclusion 1 |📒|🅱️| |📕 Cap. 2 (2.1->2.6)| |
-|1️⃣6️⃣|30/04/2026|Parallel and Distributed AI on Google Cloud (1)|⚗️|🅰️||||
-|1️⃣7️⃣|07/05/2026|Parallel and Distributed AI on Google Cloud (2)|⚗️|🅰️||||
-|1️⃣8️⃣|08/05/2026|Mutual exclusion 1 |📒|🅱️| |📕 Cap. 2 (2.1->2.6)| |
-|1️⃣9️⃣|14/05/2026|Mutual exclusion 2 |📒|🅱️| |📕 Cap. 2 (2.7->2.8) | |
+|1️⃣6️⃣|30/04/2026|Mutual exclusion 2 |📒|🅱️| |📕 Cap. 2 (2.1->2.6)| |
+|1️⃣7️⃣|07/05/2026|Parallel and Distributed AI on Google Cloud (1)|⚗️|🅰️||||
+|1️⃣8️⃣|08/05/2026|Parallel and Distributed AI on Google Cloud (2)|⚗️|🅰️||||
+|1️⃣9️⃣|14/05/2026|MPI lab Project |⚗️|🅰️🅱️| | | |
 |2️⃣0️⃣|15/05/2026|Concurrent Objects |📒|🅱️| Fix [Double-Checking Locking](https://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html) |📕 Cap. 3 ||
 |2️⃣1️⃣|21/05/2026|Monitor|📒|🅱️||Cap. 8||
 |2️⃣2️⃣|22/05/2026|Spin Locks |📒|🅱️| |📕 Cap. 7  ||
