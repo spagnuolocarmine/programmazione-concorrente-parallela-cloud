@@ -31,7 +31,7 @@
 |1️⃣3️⃣|17/04/2026|Introduction to concurrency 2|📒|🅱️| | 📕 Cap. 1, Appendice B | |
 |1️⃣4️⃣|23/04/2026|Mutual exclusion 1 |📒|🅱️| |📕 Cap. 2 (2.1->2.6)| |
 |1️⃣5️⃣|24/04/2026|Mutual exclusion 2 |📒|🅱️| |📕 Cap. 2 (2.1->2.6)| |
-|1️⃣6️⃣|30/04/2026|MPI lab Project |⚗️|🅰️| | | |
+|1️⃣6️⃣|30/04/2026|MPI lab Project |⚗️|🅰️| | |[lab.8 - MPI.4](labs/lab.8.md) |
 |1️⃣7️⃣|07/05/2026|Parallel and Distributed AI on Google Cloud - Theory|📒|🅰️||||
 |1️⃣8️⃣|08/05/2026|Parallel and Distributed AI on Google Cloud - Practice)|⚗️📒|🅰️||||
 |1️⃣9️⃣|14/05/2026|Parallel and Distributed AI on Google Cloud - Laboratory|⚗️|🅰️||||
