@@ -34,7 +34,7 @@
 |1️⃣6️⃣|30/04/2026|MPI lab Project |⚗️|🅰️| | |[lab.8 - MPI.FINAL](labs/lab.8.md) |
 |1️⃣7️⃣|07/05/2026|Parallel and Distributed AI on Google Cloud - Theory|📒|🅰️||||
 |1️⃣8️⃣|08/05/2026|Parallel and Distributed AI on Google Cloud - Practice)|⚗️📒|🅰️||||
-|1️⃣9️⃣|14/05/2026|Parallel and Distributed AI on Google Cloud - Laboratory|⚗️|🅰️||||
+|1️⃣9️⃣|14/05/2026|Parallel and Distributed AI on Google Cloud - Laboratory|⚗️|🅰️| [Feedback Survey](https://forms.gle/Pnnj4beotMfMm41X7)|||
 |2️⃣0️⃣|15/05/2026|Concurrent Objects |📒|🅱️| Fix [Double-Checking Locking](https://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html) |📕 Cap. 3 ||
 |2️⃣1️⃣|21/05/2026|Monitor|📒|🅱️||Cap. 8||
 |2️⃣2️⃣|22/05/2026|Spin Locks |📒|🅱️| |📕 Cap. 7  ||
